@@ -12,7 +12,7 @@ let db = new sqlite3.Database('db.sqlite3');
 let sql = 'SELECT * from myapi_digimon'
 
 
-var port = process.env.PORT || 8080;
+var port = 3000;
 
 
 var router = express.Router();
